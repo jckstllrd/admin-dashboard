@@ -5,12 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="header"></div>
-      <div class="sidebar"></div>
-      <div class="content"></div>
+      <div class="header">
+        <div class="search">
+          <div class="search-icon img"></div>
+          <input type="text" class="search-bar" />
+        </div>
+        <div class="admin-profile">
+          <div class="notify-bell img"></div>
+          <div class="admin-pfp img"></div>
+          <div class="admin-name">Morgan Oakley</div>
+        </div>
+
+        <div class="admin-greeting">
+          <div class="admin-pfp img"></div>
+          <div class="greeting">
+            <p>Hi, there</p>
+            <h2>Morgan Oakley (@morgan)</h2>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <button class="new">NEW</button>
+          <button class="upload">UPLOAD</button>
+          <button class="share">SHARE</button>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="dashboard-wrapper">
+          <img class="dashboard-logo" src="res/view-dashboard.svg" />
+          <h1 class="dashboard">Dashboard</h1>
+        </div>
+        <ul class="sidebar-links">
+          <li>
+            <div class="img"></div>
+            Home
+          </li>
+          <li>
+            <div class="img"></div>
+            Profile
+          </li>
+          <li>
+            <div class="img"></div>
+            Messages
+          </li>
+          <li>
+            <div class="img"></div>
+            History
+          </li>
+          <li>
+            <div class="img"></div>
+            Tasks
+          </li>
+          <li>
+            <div class="img"></div>
+            Communities
+          </li>
+        </ul>
+        <ul class="sidebar-extras">
+          <li>
+            <div class="img"></div>
+            Settings
+          </li>
+          <li>
+            <div class="img"></div>
+            Support
+          </li>
+          <li>
+            <div class="img"></div>
+            Privacy
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="card-wrapper">
+          <h3 class="project-title">Your Projects</h3>
+          <div class="card-container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="other">
+          <div class="first-other">
+            <h3>Announcements</h3>
+            <div class="announcements"></div>
+          </div>
+          <div class="second-other">
+            <h3>Trending</h3>
+            <div class="trending"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
